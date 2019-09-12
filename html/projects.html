@@ -3,30 +3,141 @@
     <head>
         <title>Projects</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="resources/portfolio.css">
+        <link rel="shortcut icon" href="resources/images/me_16x16.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="resources/css/bootstrap.css">
+        <link rel="stylesheet" href="resources/css/portfolio.css">
+        <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="resources/js/bootstrap.min.js"></script>
     </head>
+    <!-- projects.html: Information about your projects. -->
     <body>
-        <!-- projects.html: Information about your projects. -->
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li class="current"><a href="projects.html">Projects</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li class="right"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
+        <!-- begin nav -->
+        <!-- Glyphicons made available by https://www.glyphicons.com/ through https://getbootstrap.com/ -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <!--<a class="navbar-brand" href="#"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"></a>-->
+                    <img class="navbar-brand" id="logo" src="resources/images/me_512x512.png">
+                </div>
+                <!-- nav meat -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> About</a> </li>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="projects.html#project-1"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Project 1</a></li>
+                                <li><a class="dropdown-item" href="projects.html#project-2"><span class="glyphicon glyphicon-eject" aria-hidden="true"></span> Project 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="experience.html"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Experience</a></li>
+                        <li><a href="endorsements.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Endorsements</a></li>
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+        <div class="container-fluid">
             <h1 class="centered-element">Projects</h1>
-            <section class="main">
-                <article>
-                    <p>This is the project that I'm featuring!</p>
-                </article>
-                <aside>
-                    <img class="profile-picture" src="resources/micheal.jpg" alt="profile picture">
-                </aside>
-            </section>
+            <h2 id="project-1">My project 1</h2>
+            <p>^^^ id="project-1" ^^^</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
+            Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
+            Libero nunc consequat interdum varius sit amet mattis vulputate
+            enim. Netus et malesuada fames ac turpis egestas sed tempus. Proin
+            nibh nisl condimentum id. Nisl condimentum id venenatis a
+            condimentum vitae sapien. Pellentesque massa placerat duis
+            ultricies lacus sed turpis. Pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus. Egestas egestas fringilla
+            phasellus faucibus scelerisque eleifend donec. Consequat id porta
+            nibh venenatis. Aliquet nibh praesent tristique magna. Duis ut diam
+            quam nulla porttitor massa. Nisi vitae suscipit tellus mauris a
+            diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+            tincidunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
+            Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
+            Libero nunc consequat interdum varius sit amet mattis vulputate
+            enim. Netus et malesuada fames ac turpis egestas sed tempus. Proin
+            nibh nisl condimentum id. Nisl condimentum id venenatis a
+            condimentum vitae sapien. Pellentesque massa placerat duis
+            ultricies lacus sed turpis. Pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus. Egestas egestas fringilla
+            phasellus faucibus scelerisque eleifend donec. Consequat id porta
+            nibh venenatis. Aliquet nibh praesent tristique magna. Duis ut diam
+            quam nulla porttitor massa. Nisi vitae suscipit tellus mauris a
+            diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+            tincidunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
+            Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
+            Libero nunc consequat interdum varius sit amet mattis vulputate
+            enim. Netus et malesuada fames ac turpis egestas sed tempus. Proin
+            nibh nisl condimentum id. Nisl condimentum id venenatis a
+            condimentum vitae sapien. Pellentesque massa placerat duis
+            ultricies lacus sed turpis. Pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus. Egestas egestas fringilla
+            phasellus faucibus scelerisque eleifend donec. Consequat id porta
+            nibh venenatis. Aliquet nibh praesent tristique magna. Duis ut diam
+            quam nulla porttitor massa. Nisi vitae suscipit tellus mauris a
+            diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+            tincidunt.</p>
+            <h2 id="project-2">My project 2</h2>
+            <p>^^^ id="project-2" ^^^</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
+            Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
+            Libero nunc consequat interdum varius sit amet mattis vulputate
+            enim. Netus et malesuada fames ac turpis egestas sed tempus. Proin
+            nibh nisl condimentum id. Nisl condimentum id venenatis a
+            condimentum vitae sapien. Pellentesque massa placerat duis
+            ultricies lacus sed turpis. Pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus. Egestas egestas fringilla
+            phasellus faucibus scelerisque eleifend donec. Consequat id porta
+            nibh venenatis. Aliquet nibh praesent tristique magna. Duis ut diam
+            quam nulla porttitor massa. Nisi vitae suscipit tellus mauris a
+            diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+            tincidunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
+            Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
+            Libero nunc consequat interdum varius sit amet mattis vulputate
+            enim. Netus et malesuada fames ac turpis egestas sed tempus. Proin
+            nibh nisl condimentum id. Nisl condimentum id venenatis a
+            condimentum vitae sapien. Pellentesque massa placerat duis
+            ultricies lacus sed turpis. Pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus. Egestas egestas fringilla
+            phasellus faucibus scelerisque eleifend donec. Consequat id porta
+            nibh venenatis. Aliquet nibh praesent tristique magna. Duis ut diam
+            quam nulla porttitor massa. Nisi vitae suscipit tellus mauris a
+            diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+            tincidunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
+            Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.
+            Libero nunc consequat interdum varius sit amet mattis vulputate
+            enim. Netus et malesuada fames ac turpis egestas sed tempus. Proin
+            nibh nisl condimentum id. Nisl condimentum id venenatis a
+            condimentum vitae sapien. Pellentesque massa placerat duis
+            ultricies lacus sed turpis. Pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus. Egestas egestas fringilla
+            phasellus faucibus scelerisque eleifend donec. Consequat id porta
+            nibh venenatis. Aliquet nibh praesent tristique magna. Duis ut diam
+            quam nulla porttitor massa. Nisi vitae suscipit tellus mauris a
+            diam. Vestibulum mattis ullamcorper velit sed ullamcorper morbi
+            tincidunt.</p>
         </div>
     </body>
 </html>
